@@ -1,9 +1,9 @@
 
-import React,{Component} from 'react';
+import React from 'react';
 import NavbarScroller from './NavbarScroller.view';
 
 const navigation = {
-    brand: { name: "NavbarScroller", to: "/" },
+    brand: { name: "BEER WITH NICKY", to: "/" },
     links: [
       { name: "About Me", to: "/about" },
       { name: "Blog", to: "/blog" },

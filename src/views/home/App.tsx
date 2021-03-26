@@ -1,27 +1,21 @@
 import React from 'react';
-import logo from '../../assets/images/logo.svg';
 import './App.css';
 import {NavbarScrollerContainer} from '../../components/NavbarScroller';
+// import {ProductCardContainer} from '../../components/productCard';
+import IndexRouter from '../../routes/router';
 
 
 function App() {
   return (
-    <div className="App">
+    <div>
+       <NavbarScrollerContainer />
       <header className="App-header">
-      <NavbarScrollerContainer />
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload test.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <IndexRouter/>
+      {/* <ProductCardContainer/> */}
       </header>
+      <body>
+        
+      </body>
     </div>
   );
 }
